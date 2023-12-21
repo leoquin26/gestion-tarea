@@ -52,14 +52,19 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu entorno de d
    ```bash
    php artisan key:generate
    ```
+4. Crear la base de datos en su gestor de Mysql (workbench, phpmyadmin)
 
-4. Ejecuta las migraciones para crear las tablas en la base de datos:
+   ```bash
+   DB_NAME: gestion_tareas
+   ```
+
+5. Ejecuta las migraciones para crear las tablas en la base de datos:
 
    ```bash
    php artisan migrate
    ```
 
-5. Compila los assets:
+6. Compila los assets:
 
    ```bash
    npm run dev
